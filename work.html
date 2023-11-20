@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <!-- font css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- css -->
+    <link rel="stylesheet" href="css/work-frame.css">
+    <link rel="stylesheet" href="css/work.css">
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- swiper js -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- js -->
+    <script defer src="js/work.js"></script>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <!-- 일반 프레임 영역 -->
+            <div class="video-container">
+                <video src="./videos/탭메뉴.mp4" autoplay muted loop id="myVideo"></video>
+            </div>
+
+            <div class="logo">
+                <h2>
+                    <a href="index.html">
+                    <img src="./images/Comp 1.gif" alt="">
+                    </a>
+                </h2>
+            </div>
+
+            <div class="tab-menu-btn">
+                <div class="btn btn1 on">
+                    <a href="index.html"><span>MAIN</span></a>
+                </div>
+                <div class="btn btn2">
+                    <a href="about.html"><span>ABOUT</span></a>
+                </div>
+                <div class="btn btn3">
+                    <a href="work.html"><span>WORK</span></a>
+                </div>
+                <div class="btn btn4">
+                    <a href="contact.html"><span>CONTACT</span></a>
+                </div>
+            </div>
+
+
+            <!-- 비디오 영역 -->
+            <div class="wrap">
+                <div class="tabMenu">
+                    <ul>
+                        <li class="on"><a href="#tabs-1">VIDEO</a></li>
+                        <li><a href="#tabs-2">MOVING POSTER</a></li>
+                    </ul>
+                </div>
+
+                <div class="tabs">
+
+                    <!-- 탭스1 -->
+                    <div id="tabs-1">
+                        <div class="swiper sw-gallery1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" data-video="phLb8LDDE3k">
+                                    <img src="./images/1920x1080-px-animals-cats-750824-wallhere.com.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" data-video="5pOYIbj6kfY">
+                                    <img src="./images/cat-animals-blue-whiskers-skin-nap-729073-wallhere.com.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/cat-animals-whiskers-yawning-nap-cats-727904-wallhere.com.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/1920x1080-px-animals-cats-750824-wallhere.com.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/cat-animals-blue-whiskers-skin-nap-729073-wallhere.com.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/cat-animals-whiskers-yawning-nap-cats-727904-wallhere.com.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 탭스1 버튼 -->
+                        <div class="button-n">
+                            <img src="./images/next-btn2_00000.png" alt="">
+                        </div>
+                        <div class="button-p">
+                            <img src="./images/next-btn-L2_00000.png" alt="">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <!-- 탭스2 -->
+                    <div id="tabs-2">
+                        <div class="swiper sw-gallery2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/KakaoTalk_20231027_180417363_01.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/KakaoTalk_20231027_180417363_02.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/KakaoTalk_20231027_180417363_03.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/KakaoTalk_20231027_180417363_01.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/KakaoTalk_20231027_180417363_02.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./images/KakaoTalk_20231027_180417363_03.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="modal">
+                <span class="dim">
+                    <a href="#" class="modal-btn">
+                        <span class="아이콘 넣기"></span>
+                    </a>
+                </span>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
+            <br>
+        Copyright © Sun Young Portfolio, All right reserved.
+            </p>
+    </footer>
+</body>
+</html>
